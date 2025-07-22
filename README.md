@@ -1,12 +1,8 @@
 # DroughtRiskMetric-Germany
 
 ### Project Overview
-The Drought Resistance Analysis Tool is a Python-based data processing pipeline designed to analyze drought conditions using soil moisture index (SMI) data from NetCDF files, inspired by the German Drought Monitor. This project was developed to provide actionable insights into drought patterns, enabling stakeholders in agriculture, environmental management, and policy-making to assess drought vulnerability and resilience across spatial and temporal scales. By processing large-scale climate datasets efficiently, the tool calculates key drought metrics, generates visualizations, and creates spatial lookup grids for rapid querying, making it a valuable asset for environmental data analysis.
-Background and Motivation
+The Drought Resistance Analysis Tool is a Python-based data processing pipeline designed to analyze drought conditions using soil moisture index (SMI) data from the German Drought Monitor. 
 Droughts pose significant challenges to ecosystems, agriculture, and water resource management, with increasing frequency and severity due to climate change. The Soil Moisture Index (SMI), a standardized metric ranging from 0 to 1, quantifies soil moisture conditions, where lower values indicate drier conditions. The German Drought Monitor uses SMI thresholds to categorize drought severity, ranging from "unusual dryness" (SMI 0.2–0.3) to "exceptional drought" (SMI < 0.02). This project was motivated by the need to process and analyze large NetCDF datasets containing SMI data to derive meaningful drought metrics, such as frequency, intensity, and resistance scores, while addressing computational challenges like memory efficiency and scalability.
-The tool was developed as part of a portfolio to demonstrate expertise in geospatial data analysis, memory-efficient processing of large datasets, and the application of scientific Python libraries (e.g., xarray, pandas, numpy, matplotlib, and scipy). It showcases the ability to handle real-world environmental data and produce actionable outputs for decision-making.
-Features and Functionality
-The Drought Resistance Analysis Tool provides the following key functionalities:
 
 ### Data Processing:
 
